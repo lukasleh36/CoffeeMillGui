@@ -19,7 +19,7 @@ int BTN2_STATE = 0;
 char mqtt_server[40] = "192.168.2.12";
 char mqtt_port[6] = "1883";
 char mqtt_user[40] = "mqtt-user"; 
-char mqtt_password[40];  
+char mqtt_password[40];
 
 WiFiClient espClient;
 PubSubClient mqttClient(espClient);
